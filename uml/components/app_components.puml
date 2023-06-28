@@ -1,0 +1,15 @@
+@startuml
+component [Medication List Manager] as medication_list
+component [Substitution Manager] as substitution_manager
+
+component "Unicom Backend" {
+    [FHIR Server] -left- Suggest
+    [FHIR Server] -right- "Retrieve Data"
+
+}
+
+medication_list .up.> Suggest
+medication_list .up.> "Retrieve Data"
+substitution_manager .up.> "Retrieve Data"
+
+@enduml

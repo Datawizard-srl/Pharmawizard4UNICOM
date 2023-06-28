@@ -1,0 +1,52 @@
+{
+  "commons_Name": "Name",
+  "commons_Informations": "Informations",
+  "commons_SubstanceName": "Substance Name",
+  "commons_MoietyName": "Moiety Name",
+  "commons_AdministrableDoseForm": "Administrable Dose Form",
+  "commons_ProductUnitOfPresentation": "Product Unit Of Presentation",
+  "commons_RoutesOfAdministration": "Route Of Administration",
+  "commons_ReferenceStrength": "Reference Strength",
+  "commons_MarketingAuthorizationHolderLabel": "Marketing Authorization Holder Label",
+  "commons_Country": "Country",
+  "commons_Unknown": "Unknown",
+
+  "welcomeScreen_Title": "Welcome!",
+  "welcomeScreen_Text": "(English)\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, hendrerit dui in purus libero non sollicitudin purus dolor. Fermentum tempor et magna ipsum aliquet.\n       \n       Dignissim quisque in nec laoreet pellentesque mauris. Sem enim, nibh felis, donec turpis diam senectus magna at. Amet eu egestas metus, facilisi at.",
+
+  "settingsScreen_Appbar_Title": "Settings",
+  "settingsScreen_Label_DarkMode": "Dark Mode",
+
+  "button_Next": "NEXT",
+  "button_AddDrug": "+ ADD NEW DRUG",
+
+  "homepageScreen_Text": "With Unicom app you can scan a drug and check the substitution similar for patient.\n\nAfter Qr scan you can see feature of drug and visualize list of substitutions.",
+  "homepageScreen_Button_Medication": "Medication\nList",
+  "homepageScreen_Button_QrCode": "QrCode",
+
+  "medicationsListScreen_Appbar_Title": "Medication List",
+  "medicationsListScreen_NoMedicine": "No medications added yet",
+  "medicationsListScreen_RelatedDrugs": "Related Drugs",
+  "medicationsListScreen_GenerateQR": "GENERATE QRCODE",
+
+  "searchScreen_Appbar_Title": "New Drug",
+  "searchScreen_Description": "You can find a drug with this searchbar",
+  "searchScreen_InputPlaceholder": "Find drug or substance",
+  "searchScreen_ResultsFound": "You have <b>{numFound}</b> results",
+  "@searchScreen_ResultsFound": {
+      "placeholders": {"numFound": { "type": "int" }}
+  },
+
+  "medicationDetailsScreen_Appbar_Title": "Drug selected",
+  "medicationDetailsScreen_Button_AddToList": "ADD TO MEDICATION LIST",
+  "medicationDetailsScreen_Modal_DrugAdded_Text": "The drug was added to your Medication List",
+  "medicationDetailsScreen_Modal_Button_GoToList": "GO TO THE LIST",
+  "qrScreen_Info_Text": "SCAN QRCODE OF HEALTCARE PROVIDER APP",
+
+  "drugScannedScreen_Appbar_Title": "Drug Scanned",
+  "drugScannedScreen_Header_Text": "The drug was scanned.",
+  "drugScannedScreen_Button_AddToList": "ADD TO YOUR MEDICATION LIST",
+
+  "substitutionListScreen_Appbar_Title": "Related Drugs"
+
+}

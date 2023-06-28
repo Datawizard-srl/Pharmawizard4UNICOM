@@ -1,0 +1,37 @@
+@startuml
+
+title "Medication List Manager Component flow"
+actor User
+participant Pharmawizard4UNICOM as app
+participant "Unicom Backend" as be #lightblue
+
+User -> app: typing drug name
+activate User
+    activate app
+        app -> be: suggest request
+        activate be
+        app <- be: suggest response
+        deactivate be
+
+        User <- app: show suggested drugs
+    deactivate app
+
+    User -> app: drug selected
+
+    activate app
+        app -> be: drug information request
+        activate be
+        app <- be: drug information response
+        deactivate be
+
+        app -> User: show drug information
+        deactivate app
+        User -> app: tap add to medication list
+        activate app
+        app -> app: add to medication list
+
+    app -> User: show medication list
+    deactivate app
+deactivate User
+
+@enduml

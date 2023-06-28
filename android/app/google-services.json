@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "559316165858",
+    "firebase_url": "https://unicom-be4cc-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "unicom-be4cc",
+    "storage_bucket": "unicom-be4cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559316165858:android:6675536b36ad6a8de26abb",
+        "android_client_info": {
+          "package_name": "it.datawizard.unicom_patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559316165858-vnlfa28ohpjpo2ectu35h2ro1b7hu224.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVS3QeaImCUs3zKL2eKbKXvuzHKtbAtdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559316165858-vnlfa28ohpjpo2ectu35h2ro1b7hu224.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

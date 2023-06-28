@@ -1,0 +1,53 @@
+{
+  "commons_Name": "Nome",
+  "commons_Informations": "Informazioni",
+  "commons_SubstanceName": "Nome Sostanza",
+  "commons_MoietyName": "Nome Moiety",
+  "commons_AdministrableDoseForm": "Forma Della Dose Somministrabile",
+  "commons_ProductUnitOfPresentation": "Unità Di Presentazione Del Prodotto",
+  "commons_RoutesOfAdministration": "Via Di Somministrazione",
+  "commons_ReferenceStrength": "Reference Strength",
+  "commons_MarketingAuthorizationHolderLabel": "Azienda",
+  "commons_Country": "Nazione",
+  "commons_Unknown": "Sconosciuto",
+
+  "welcomeScreen_Title": "Benvenuto!",
+  "welcomeScreen_Text": "(Italiano)\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, hendrerit dui in purus libero non sollicitudin purus dolor. Fermentum tempor et magna ipsum aliquet.\n       \n       Dignissim quisque in nec laoreet pellentesque mauris. Sem enim, nibh felis, donec turpis diam senectus magna at. Amet eu egestas metus, facilisi at.",
+
+  "settingsScreen_Appbar_Title": "Impostazioni",
+  "settingsScreen_Label_DarkMode": "Modalità Notturna",
+
+  "button_Next": "AVANTI",
+  "button_AddDrug": "+ AGGIUNGI FARMACO",
+
+  "homepageScreen_Text": "Con l'app Unicom puoi scansionare un farmaco e controllare la sostituzione simile per paziente.\n\nDopo la scansione Qr puoi vedere le caratteristiche del farmaco e visualizzare l'elenco delle sostituzioni.",
+  "homepageScreen_Button_Medication": "Medicinali",
+  "homepageScreen_Button_QrCode": "QrCode",
+
+  "medicationsListScreen_Appbar_Title": "Lista Medicinali",
+  "medicationsListScreen_NoMedicine": "Nessuna medicina aggiunta alla lista",
+  "medicationsListScreen_RelatedDrugs": "Farmaci Correlati",
+  "medicationsListScreen_GenerateQR": "GENERA QRCODE",
+
+
+  "searchScreen_Appbar_Title": "Cerca Farmaco",
+  "searchScreen_Description": "Puoi cercare un farmaco tramite la barra di ricerca",
+  "searchScreen_InputPlaceholder": "Cerca farmaco o sostanza",
+  "searchScreen_ResultsFound": "Ci sono <b>{numFound}</b> risultati",
+  "@searchScreen_ResultsFound": {
+    "placeholders": {"numFound": { "type": "int" }}
+  },
+
+  "medicationDetailsScreen_Appbar_Title": "Farmaco Selezionato",
+  "medicationDetailsScreen_Button_AddToList": "AGGIUNGI ALLA LISTA FARMACI",
+  "medicationDetailsScreen_Modal_DrugAdded_Text": "Il farmaco è stato aggiunto alla tua Lista di Medicinali",
+  "medicationDetailsScreen_Modal_Button_GoToList": "VAI ALLA LISTA",
+
+  "qrScreen_Info_Text": "SCANSIONE DEL QRCODE DELL'APP DELL'OPERATORE SANITARIO",
+
+  "drugScannedScreen_Appbar_Title":  "Medicinale Scannerizzato",
+  "drugScannedScreen_Header_Text":  "Sostituzione trovata",
+  "drugScannedScreen_Button_AddToList": "AGGIUNGI ALLA TUA LISTA MEDICINALI",
+
+  "substitutionListScreen_Appbar_Title": "Medicinali Correlati"
+}

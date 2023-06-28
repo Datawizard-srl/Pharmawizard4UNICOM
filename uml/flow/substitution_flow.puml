@@ -1,0 +1,46 @@
+@startuml
+
+title "Substitution Manager Component flow"
+actor User
+participant Pharmawizard4UNICOM as patient_app
+actor "Healthcare Provider" as hc
+participant "Unicom Backend" as be #lightblue
+
+User -> patient_app: select drug from medication list
+activate User
+    activate patient_app
+        User <- patient_app: show drug information
+    deactivate patient_app
+    User -> patient_app: tap on generate QR Code
+
+    activate patient_app
+        patient_app -> patient_app: generate QR Code
+
+    User <- patient_app: show QR Code
+    deactivate patient_app
+    User -> hc: show QR Code to Healthcare Provider
+    activate hc
+    hc -> hc: select substitution
+    patient_app <- hc: scan substitution QR Code
+    deactivate hc
+    activate patient_app
+    patient_app -> be: substitution information request
+    activate be
+    patient_app <- be: substitution information response
+    deactivate be
+    User <- patient_app: show substitution information
+    deactivate patient_app
+    User -> patient_app: tap add to medication list
+    activate patient_app
+    patient_app -> patient_app: add substitution to medication list
+    User <- patient_app: show medication list
+    deactivate patient_app
+
+
+
+
+deactivate User
+
+
+
+@enduml
