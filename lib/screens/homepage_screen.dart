@@ -93,7 +93,7 @@ class HomepageScreen extends StatelessWidget {
   BoxDecoration buildBackgroundImage() {
     return const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage("images/backgrounds/home_page.png",),
+          image: AssetImage("assets/images/backgrounds/home_page.png",),
           opacity: 0.3,
           fit: BoxFit.fill,
         ),
@@ -105,7 +105,7 @@ class HomepageScreen extends StatelessWidget {
 
     return AppBar(
       toolbarHeight: 100,
-      title: const Image(image: AssetImage("images/logos/unicom.png")),
+      title: const Image(image: AssetImage("assets/images/logos/unicom.png")),
       backgroundColor: transparent,
       shadowColor: transparent,
       centerTitle: true,

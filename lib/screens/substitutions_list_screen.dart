@@ -92,7 +92,7 @@ class _SubstitutionsListScreenState extends State<SubstitutionsListScreen> {
       child: Column(
           children:[
             Image.asset(
-              "images/placeholders/generic_drug.png",
+              "assets/images/placeholders/generic_drug.png",
               height: 60,
               width: 60,
               fit: BoxFit.fill,

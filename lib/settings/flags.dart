@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 Map<String, String> flagsIcons = {
   "Republic of Estonia": "ee",
   "Kingdom of Sweden": "se",
+  "Italian Republic": "it",
+  "Hellenic Republic": "gr",
+  "United States of America": "us"
 };
 
 Widget getFlag(String country, {double height=20, double width=30}){
