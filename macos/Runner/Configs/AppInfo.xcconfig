@@ -8,7 +8,7 @@
 PRODUCT_NAME = unicom_patient
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.unicomPatient
+PRODUCT_BUNDLE_IDENTIFIER = com.datawizard.unicom.patient
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2022 com.example. All rights reserved.

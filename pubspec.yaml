@@ -53,6 +53,7 @@ dependencies:
   fhir: ^0.9.3
 
 dev_dependencies:
+  change_app_package_name: ^1.1.0
   flutter_test:
     sdk: flutter
 

@@ -1,4 +1,4 @@
-package it.datawizard.unicom_patient
+package com.datawizard.unicom.patient
 
 import io.flutter.embedding.android.FlutterActivity
 
