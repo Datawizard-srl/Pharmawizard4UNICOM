@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:559316165858:android:6675536b36ad6a8de26abb",
         "android_client_info": {
-          "package_name": "it.datawizard.unicom_patient"
+          "package_name": "com.datawizard.unicom.patient"
         }
       },
       "oauth_client": [

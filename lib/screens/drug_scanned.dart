@@ -80,24 +80,24 @@ class _DrugScannedScreenState extends State<DrugScannedScreen> {
           borderRadius: const BorderRadius.all(Radius.circular(20)),
         ),
         child: Expanded(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 45.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Image.asset("assets/images/placeholders/generic_drug.png", height: 60, width: 60, fit: BoxFit.fitHeight),
-                Text(
-                  "${LocaleUtils.translate(context).commons_Name}: ",
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-                Text(
-                  _substitution.name,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.headlineMedium,
-                ),
-              ],
-            ),
+           child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 45.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Image.asset("assets/images/placeholders/generic_drug.png", height: 60, width: 60, fit: BoxFit.fitHeight),
+              Text(
+                "${LocaleUtils.translate(context).commons_Name}: ",
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+              Text(
+                _substitution.name,
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.headlineMedium,
+              ),
+            ],
+          ),
           ),
         ),
       );
