@@ -13,6 +13,9 @@ PODS:
     - MLKitBarcodeScanning (~> 2.2.0)
   - GoogleMLKit/MLKitCore (3.2.0):
     - MLKitCommon (~> 8.0.0)
+  - GoogleMLKit/PoseDetection (3.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitPoseDetection (~> 1.0.0-beta10)
   - GoogleToolboxForMac/DebugUtils (2.3.2):
     - GoogleToolboxForMac/Defines (= 2.3.2)
   - GoogleToolboxForMac/Defines (2.3.2)
@@ -47,6 +50,13 @@ PODS:
     - GoogleUtilitiesComponents (~> 1.0)
     - GTMSessionFetcher/Core (~> 1.1)
     - Protobuf (~> 3.12)
+  - MLKitPoseDetection (1.0.0-beta10):
+    - MLKitCommon (~> 8.0)
+    - MLKitPoseDetectionCommon (= 1.0.0-beta10)
+    - MLKitXenoCommon (= 1.0.0-beta10)
+  - MLKitPoseDetectionCommon (1.0.0-beta10):
+    - MLKitCommon (~> 8.0)
+    - MLKitXenoCommon (= 1.0.0-beta10)
   - MLKitVision (4.2.0):
     - GoogleToolboxForMac/Logger (~> 2.1)
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
@@ -54,6 +64,9 @@ PODS:
     - MLImage (= 1.0.0-beta3)
     - MLKitCommon (~> 8.0)
     - Protobuf (~> 3.12)
+  - MLKitXenoCommon (1.0.0-beta10):
+    - MLKitCommon (~> 8.0)
+    - MLKitVision (~> 4.2)
   - mobile_scanner (0.0.1):
     - Flutter
     - GoogleMLKit/BarcodeScanning (~> 3.2.0)
@@ -71,6 +84,7 @@ DEPENDENCIES:
   - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
   - Flutter (from `Flutter`)
   - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+  - GoogleMLKit/PoseDetection
   - mobile_scanner (from `.symlinks/plugins/mobile_scanner/ios`)
   - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
 
@@ -85,7 +99,10 @@ SPEC REPOS:
     - MLImage
     - MLKitBarcodeScanning
     - MLKitCommon
+    - MLKitPoseDetection
+    - MLKitPoseDetectionCommon
     - MLKitVision
+    - MLKitXenoCommon
     - nanopb
     - PromisesObjC
     - Protobuf
@@ -115,13 +132,16 @@ SPEC CHECKSUMS:
   MLImage: 489dfec109f21da8621b28d476401aaf7a0d4ff4
   MLKitBarcodeScanning: d92fe1911001ec36870162c5a0eb206f612b7169
   MLKitCommon: f6da6c5659618c070b50a80db01248ebe2964175
+  MLKitPoseDetection: 619212a00d60dbd045900f351f5d536a29293209
+  MLKitPoseDetectionCommon: 440b2b41504319ff9855cd941f1e4606af069e8b
   MLKitVision: 96c96571190b7f63eddf4a12068ce8a8689e0d2c
+  MLKitXenoCommon: 39b7097db51f4716a2a0ff4e4459e002499f5523
   mobile_scanner: 0cf06f3d5224576aa24ade02a6f73d8b2551c7bf
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
   Protobuf: c6bc59bbab3d38a71c67f62d7cb7ca8f8ea4eca1
 
-PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+PODFILE CHECKSUM: 4a331ff4779d1d530350902d9aa6216bdac3938f
 
 COCOAPODS: 1.13.0

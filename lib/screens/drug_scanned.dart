@@ -79,7 +79,7 @@ class _DrugScannedScreenState extends State<DrugScannedScreen> {
           border: Border.all(color: Theme.of(context).colorScheme.onSurfaceVariant, width: 3),
           borderRadius: const BorderRadius.all(Radius.circular(20)),
         ),
-        child: Expanded(
+        
            child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 45.0),
           child: Column(
@@ -99,7 +99,7 @@ class _DrugScannedScreenState extends State<DrugScannedScreen> {
             ],
           ),
           ),
-        ),
+        
       );
   }
 

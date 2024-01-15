@@ -60,6 +60,10 @@ coverage/
 # See https://dart.dev/guides/libraries/private-files#pubspeclock
 #pubspec.lock
 
+#vscode
+.vscode
+.vscode/*
+
 # Android related
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
